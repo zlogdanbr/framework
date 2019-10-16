@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddRun	th.cpp	/^void ThreadWrapper::AddRun( void* (*f)(void*) )$/;"	f	class:ThreadWrapper
+CSqlite	db.cpp	/^CSqlite::CSqlite( ):db(NULL)$/;"	f	class:CSqlite
+CloseClient	com.cpp	/^void SocketCom::CloseClient()$/;"	f	class:SocketCom
+CloseServer	com.cpp	/^void SocketCom::CloseServer()$/;"	f	class:SocketCom
+ConnectToserver	client.cpp	/^int ConnectToserver( int portno, char* Host )$/;"	f
+ConvertHexStringToDecimalString	util.cpp	/^	int ConvertHexStringToDecimalString( const char* HexInputString, std::string& Output )$/;"	f	namespace:util
+Disconnect	client.cpp	/^void Disconnect(int sockfd)$/;"	f
+GetTimeStamp	db.cpp	/^void CSqlite::GetTimeStamp( std::string& stamp ) const$/;"	f	class:CSqlite
+HelpFilePrint	client.cpp	/^int HelpFilePrint( int& argc, const char* host )$/;"	f
+Join	th.cpp	/^void ThreadWrapper::Join() const$/;"	f	class:ThreadWrapper
+LogMsg	log.cpp	/^void LogData::LogMsg( const char* Msg ) const$/;"	f	class:LogData
+PrintQueryRaw	db.cpp	/^void CSqlite::PrintQueryRaw( )$/;"	f	class:CSqlite
+ReadSocket	com.cpp	/^void SocketCom::ReadSocket( char* dest, int sze )$/;"	f	class:SocketCom
+Register	factory.cpp	/^void MyQueue::Register(BasePtr* ptr, int o )$/;"	f	class:MyQueue
+ReplaceCharsFromString	db.cpp	/^inline void CSqlite::ReplaceCharsFromString( std::string& mystring, char whattoChange, char changeTo ) const$/;"	f	class:CSqlite
+Run	factory.cpp	/^void MyQueue::Run( int myitem ) const$/;"	f	class:MyQueue
+SafeBufferOperation	com.cpp	/^void SocketCom::SafeBufferOperation(const char* orig)$/;"	f	class:SocketCom
+SaveQueryToFile	db.cpp	/^inline bool CSqlite::SaveQueryToFile( ofstream& myfile )$/;"	f	class:CSqlite
+SendData	client.cpp	/^int SendData( int sockfd, char* Frame )$/;"	f
+SetSocketBack	com.cpp	/^int SocketCom::SetSocketBack()$/;"	f	class:SocketCom
+SocketCom	com.cpp	/^SocketCom::SocketCom( int port )$/;"	f	class:SocketCom
+StartLoging	log.cpp	/^void LogData::StartLoging() const$/;"	f	class:LogData
+StopLoging	log.cpp	/^void LogData::StopLoging()const$/;"	f	class:LogData
+ThreadWrapper	th.cpp	/^ThreadWrapper::ThreadWrapper(  )$/;"	f	class:ThreadWrapper
+VerificaPlacaVazia	client.cpp	/^void VerificaPlacaVazia(char* placa )$/;"	f
+WaitMsg	com.cpp	/^int SocketCom::WaitMsg( char* buffer )$/;"	f	class:SocketCom
+bExecuteQuery	db.cpp	/^bool CSqlite::bExecuteQuery( const char* query, int opt ) const$/;"	f	class:CSqlite
+bconnect	db.cpp	/^bool CSqlite::bconnect( std::string& dbname )$/;"	f	class:CSqlite
+calculateCRC	util.cpp	/^	int calculateCRC( char* buffer, int size )$/;"	f	namespace:util
+callback	db.cpp	/^int CSqlite::callback(void *data, int argc, char **argv, char **azColName)$/;"	f	class:CSqlite
+doprocessing	com.cpp	/^int SocketCom::doprocessing(int sock )$/;"	f	class:SocketCom
+error	client.cpp	/^void error(const char *msg)$/;"	f
+error	com.cpp	/^void SocketCom::error(const char *msg) const$/;"	f	class:SocketCom
+getObjc	factory.cpp	/^BasePtr* MyClassFactory::getObjc(int option, BasePtr* ptr ) const$/;"	f	class:MyClassFactory
+iConvertBin2Ascii	util.cpp	/^	int iConvertBin2Ascii(char* bBindata, int iDataSize, char* szDataAscii )$/;"	f	namespace:util
+iConvertBinArray2String	util.cpp	/^	int iConvertBinArray2String(	char* bBindata, $/;"	f	namespace:util
+main	client.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	main.cpp	/^int main()$/;"	f
+sConvertHexBin2String	util.cpp	/^	unsigned char* sConvertHexBin2String(unsigned char ch, unsigned char* buffer)$/;"	f	namespace:util
+szConvertStringToData	util.cpp	/^	char* szConvertStringToData( char* stringbuffer, char* hexbuffer, int size )$/;"	f	namespace:util
+util	util.cpp	/^namespace util$/;"	n	file:
+vSetCurrentTimeStamp	log.cpp	/^char* LogData::vSetCurrentTimeStamp( char* szTimeStamp, int type )const$/;"	f	class:LogData
+vSetCurrentTimeStamp	util.cpp	/^	char* vSetCurrentTimeStamp( char* szTimeStamp )$/;"	f	namespace:util
+vSetCurrentTimeStamp	util.cpp	/^	char* vSetCurrentTimeStamp( char* szTimeStamp, const char* szFormat, int isize )$/;"	f	namespace:util
+~CSqlite	db.cpp	/^CSqlite::~CSqlite()$/;"	f	class:CSqlite
+~MyQueue	factory.cpp	/^MyQueue::~MyQueue()$/;"	f	class:MyQueue
