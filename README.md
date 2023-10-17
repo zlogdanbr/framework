@@ -1,2 +1,2 @@
-# framework
-Linux fm
+# C/C++ framework for Linux
+Linux framework
